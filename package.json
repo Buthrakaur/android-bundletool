@@ -1,0 +1,9 @@
+{
+  "name": "android-bundletool",
+  "version": "0.12.0",
+  "scripts": {
+  	"apks-build-universal": "java -jar bundletool-all-0.12.0.jar build-apks --mode universal",
+  	"apks-build": "java -jar bundletool-all-0.12.0.jar build-apks --connected-device",
+  	"apks-install": "java -jar bundletool-all-0.12.0.jar install-apks --apks"
+  }
+}
